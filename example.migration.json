@@ -1,0 +1,16 @@
+{
+  "domain": "example.edu",
+  "course_delivery": {
+    "name": "courses",
+    "target": "delivery.example.net"
+  },
+  "learner_deadlines": {
+    "name": "_deadlines",
+    "policy": "timezone=America/New_York;grace_minutes=15",
+    "publish": true
+  },
+  "educator_reporting": {
+    "name": "reports",
+    "target": "faculty.example.net"
+  }
+}
